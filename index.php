@@ -6,3 +6,6 @@ if ($age >= 18) {
 } else {
     echo "You are a minor.";
 }
+else{
+    echo "You are a junior.";
+}
