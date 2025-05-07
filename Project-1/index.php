@@ -2,12 +2,21 @@
 //Number Classifier
 $number = -4;
 
-if ($number > 0 && $number % 2 != 0) {
-    echo "$number is a positive and odd number.\n";
-} elseif ($number < 0 && $number % 2 == 0) {
-    echo "$number is a negative and even number.\n";
+if ($number >= 0) {
+    if ($number == 0) {
+        echo "$number is zero.\n";
+    } else {
+        echo "$number is positive.\n";
+    }
 } else {
-    echo "$number is zero.";
+    echo "$number is negative.\n";
+}
+
+//Even or Odd Number Checker
+if ($number % 2 == 0) {
+    echo "$number is even.\n";
+} else {
+    echo "$number is odd.\n";
 }
 
 
